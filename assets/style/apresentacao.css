@@ -1,0 +1,32 @@
+.apresentacao__container {
+    background-color: var(--bg-title);
+    padding: 0 4rem 5.625rem 4rem;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.apresentacao__titulo {
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.apresentacao__titulo-azul {
+    color: var(--effect-color);
+}
+
+.apresentacao__texto {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--secundary-font);
+    font-weight: 400;
+    font-size: 2rem;
+}

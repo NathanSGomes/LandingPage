@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@300;400;700&display=swap');
+@import url(header.css);
+@import url(apresentacao.css);
+@import url(info.css);
+@import url(chamada.css);
+@import url(cliente.css);
+@import url(contato.css);
+@import url(footer.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-title: #000118;
+    --bg-menu: #1A1C2C;
+    --bg-color: #191919;
+    --effect-color: #22D4FD;
+    --primary-color: #FFFFFF;
+    --secundary-color: #000000;
+    --grey: #D9D9D9;
+    --primary-font: "Inter";
+    --secundary-font: "Lato";
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1440px) {
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: var(--secundary-color);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 35px;
+        background-color: var(--grey);
+
+    }
+}

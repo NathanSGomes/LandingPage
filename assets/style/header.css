@@ -1,0 +1,57 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+    border-top: 2px solid var(--effect-color);
+    width: 100%;
+    background-color: var(--bg-title);
+}
+
+.header__img-mobile {
+    width: 6rem;
+    height: 3rem;
+}
+
+.header__logo {
+    display: none;
+}
+
+.header__link {
+    display: none;
+}
+
+/* Responsividade Tablet */
+
+@media screen and (min-width: 1024px) {
+
+    .header__img-mobile {
+        display: none;
+    }
+
+    .header__header {
+        justify-content: left;
+    }
+
+    .header__logo {
+        display: flex;
+        align-items: center;
+    }
+    .header__img{
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-left: 1rem;
+    }
+
+    .header__link {
+        display: block;
+        text-decoration: none;
+        color: var(--primary-color);
+        font-weight: 700;
+        font-size: 24px;
+    }
+    
+    .header__link-azul {
+        color: var(--effect-color);
+    }
+}

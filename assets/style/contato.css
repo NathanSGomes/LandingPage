@@ -1,0 +1,104 @@
+.contato__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 4rem 4rem 2rem 4rem;
+    border-top: 2px solid var(--grey);
+    border-bottom: 2px solid var(--grey);
+    background-color: var(--bg-title);
+    overflow: hidden;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contato__titulo {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.contato__texto {
+    font-family: var(--secundary-font);
+    font-weight: 300;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+}
+
+.contato__conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+.contato__email {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 24px;
+    padding: 1rem;
+    align-self: start;
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.contato__email::placeholder {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    background: url(/assets/img/Contato.png) no-repeat;
+    background-size: 2rem 2rem;
+    background-position: 1rem;
+}
+
+.redes__texto {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin: 1rem 0;
+}
+
+.redes__sociais {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.redes__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 24px;
+}
+
+.redes__btn-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.redes__btn-img:hover {
+    transition: 0.6s;
+    background-color: var(--effect-color);
+    border-radius: 100%;
+    box-shadow: 0 0 2em var(--effect-color);
+}
+
+.redes__texto-btn:hover {
+    transition: 0.6s;
+    color: var(--effect-color);
+}
+
+.contato__img {
+    width: 39rem;
+    height: 28rem;
+    opacity: 0.7;
+}
