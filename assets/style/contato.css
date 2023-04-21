@@ -5,8 +5,7 @@
     justify-content: space-evenly;
     gap: 2rem;
     padding: 4rem 4rem 2rem 4rem;
-    border-top: 2px solid var(--grey);
-    border-bottom: 2px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
     background-color: var(--bg-title);
     overflow: hidden;
 }
@@ -41,11 +40,11 @@
     background-color: transparent;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    border-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
     padding: 1rem;
     align-self: start;
     width: 100%;
-    margin-top: .5rem;
 }
 
 .contato__email::placeholder {
@@ -85,20 +84,34 @@
     height: 3rem;
 }
 
-.redes__btn-img:hover {
-    transition: 0.6s;
-    background-color: var(--effect-color);
-    border-radius: 100%;
-    box-shadow: 0 0 2em var(--effect-color);
-}
-
 .redes__texto-btn:hover {
     transition: 0.6s;
     color: var(--effect-color);
 }
 
 .contato__img {
+    border-radius: 24px;
     width: 39rem;
     height: 28rem;
     opacity: 0.7;
+}
+
+.email__container {
+    display: flex;
+}
+
+.email__btn {
+    background-color: #061E3C;
+    border: 1px solid var(--primary-color);
+    border-left: none;
+    color: var(--primary-color);
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    align-self: center;
+    padding: 0.844rem 2rem;
+}
+
+.email__btn:hover {
+    background-color: #1057B0;
+    cursor: pointer;
 }
