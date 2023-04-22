@@ -1,22 +1,18 @@
 .info__container {
-    display: flex;
-    flex-direction: column;
-}
-
-.img__container {
+    height: 100vh;
     background-image: url(../img/Armazenamento.jpeg);
     background-size: 100% 100%;
-    height: 55vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 0 5vw;
+    justify-content: center;
 }
 
-.img__titulo {
+.info__titulo {
     font-size: 2rem;
     color: var(--primary-color);
     padding: 2rem;
+    margin-bottom: 3rem;
     border-bottom: 4px solid var(--effect-color);
 }
 
@@ -29,6 +25,7 @@
 
 .lista__lista {
     color: var(--primary-color);
+    font-size: 1.125rem;
     margin-bottom: 1.5rem;
     font-family: var(--secundary-font);
 }
