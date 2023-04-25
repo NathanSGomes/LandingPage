@@ -78,3 +78,51 @@
     box-shadow: 0 0 2em var(--effect-color);
 }
 
+@media screen and (max-width: 1024px) {
+    .chamada__titulo {
+        font-size: 1.5rem;
+    }
+
+    .chamada__texto {
+        font-size: 1.25rem;
+    }
+
+    .chamada__btn {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .chamada__container {
+        padding: 0;
+    }
+    
+    .chamada__conteudo {
+        flex-direction: column;
+    }
+
+    .chamada__img {
+        width: 100%;
+    }
+
+    .chamada__titulo {
+        text-align: center;
+        border-right: none;
+        font-size: 1.25rem;
+        padding-top: 2rem;
+    }
+
+    .chamada__texto {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .chamada__texto-azul {
+        font-size: 1rem;
+    }
+
+    .chamada__btn {
+        align-self: center;
+    }
+}

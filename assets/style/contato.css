@@ -38,7 +38,7 @@
 
 .contato__nome {
     background-color: transparent;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 24px;
     padding: 1rem;
@@ -58,7 +58,7 @@
 
 .contato__telefone {
     background-color: transparent;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 24px;
     padding: 1rem;
@@ -78,7 +78,7 @@
 
 .contato__email {
     background-color: transparent;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 24px;
     padding: 1rem;
@@ -161,4 +161,54 @@
     background-color: #1057B0;
     color: var(--grey);
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .contato__titulo {
+        font-size: 1.5rem;
+    }
+
+    .redes__texto {
+        font-size: 1.5rem;
+    }
+
+    .contato__img{
+        width: 40%;
+        height: 40%;
+        align-self: first baseline;
+        padding-top: 2rem;
+    }
+
+    .contato {
+        width: 50%;
+    }
+
+    .redes__btn-img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .contato__img {
+        display: none;
+    }
+
+    .redes__texto-btn {
+        display: none;
+    }
+
+    .contato__container {
+        padding: 1rem;
+        justify-content: start;
+    }
+
+    .contato {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .redes__sociais {
+        justify-content: space-between;
+    }
 }

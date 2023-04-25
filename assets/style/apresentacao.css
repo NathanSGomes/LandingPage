@@ -30,3 +30,13 @@
     font-weight: 400;
     font-size: 2rem;
 }
+
+@media screen and (max-width: 430px) {
+    .apresentacao__titulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__texto {
+        font-size: 1.25rem;
+    }
+}

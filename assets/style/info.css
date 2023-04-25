@@ -33,3 +33,32 @@
 .teste {
     height: 100vh;
 }
+
+@media screen and (max-width: 1024px) {
+    .info__titulo {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .info__container {
+        padding: 1rem;
+    }
+    
+    .info__titulo {
+        font-size: 1.25rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .lista__container {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lista__lista {
+        font-size: 1rem;
+    }
+}
