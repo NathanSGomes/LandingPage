@@ -44,7 +44,13 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 720px) {
+    .card__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
     .cliente__container {
         flex-direction: column;
         height: 100%;

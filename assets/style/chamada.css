@@ -92,7 +92,37 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 720px){
+    .chamada__container {
+        padding: 0;
+    }
+    
+    .chamada__conteudo {
+        flex-direction: column;
+    }
+
+    .chamada__img {
+        width: 100%;
+    }
+
+    .chamada__titulo {
+        text-align: center;
+        border-right: none;
+        padding-top: 2rem;
+    }
+
+    .chamada__texto {
+        text-align: center;
+        padding: 2rem;
+    }
+
+
+    .chamada__btn {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 440px) {
     .chamada__container {
         padding: 0;
     }
