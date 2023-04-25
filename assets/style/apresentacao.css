@@ -31,12 +31,16 @@
     font-size: 2rem;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     .apresentacao__titulo {
         font-size: 1.5rem;
     }
 
     .apresentacao__texto {
         font-size: 1.25rem;
+    }
+
+    .apresentacao__container {
+        padding: 1rem;
     }
 }
