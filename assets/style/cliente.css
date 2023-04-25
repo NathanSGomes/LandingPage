@@ -44,7 +44,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     .cliente__container {
         flex-direction: column;
         height: 100%;
