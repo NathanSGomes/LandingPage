@@ -36,12 +36,51 @@
     gap: 2rem;
 }
 
+.contato__nome {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 24px;
+    padding: 1rem;
+    align-self: start;
+    width: 100%;
+}
+
+.contato__nome::placeholder {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    background: url(../img/User.png) no-repeat;
+    background-size: 1rem 1rem;
+    background-position: 1rem;
+}
+
+.contato__telefone {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 24px;
+    padding: 1rem;
+    align-self: start;
+    width: 100%;
+}
+
+.contato__telefone::placeholder {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    background: url(../img/Telefone.png) no-repeat;
+    background-size: 1rem 1rem;
+    background-position: 1rem;
+}
+
 .contato__email {
     background-color: transparent;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    border-bottom-left-radius: 24px;
-    border-top-left-radius: 24px;
+    border-radius: 24px;
     padding: 1rem;
     align-self: start;
     width: 100%;
@@ -53,7 +92,7 @@
     text-align: center;
     color: var(--primary-color);
     background: url(../img/Contato.png) no-repeat;
-    background-size: 2rem 2rem;
+    background-size: 1rem 1rem;
     background-position: 1rem;
 }
 
@@ -104,17 +143,17 @@
 
 .email__container {
     display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .email__btn {
     background-color: #1c82ff;
-    border: 1px solid var(--primary-color);
-    border-left: none;
+    border: 2px solid var(--primary-color);
     color: var(--primary-color);
     font-weight: 700;
-    border-bottom-right-radius: 24px;
-    border-top-right-radius: 24px;
-    align-self: center;
+    border-radius: 24px;
+    align-self: start;
     padding: 0.844rem 2rem;
 }
 
