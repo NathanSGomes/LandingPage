@@ -189,7 +189,7 @@
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 520px) {
     .contato__img {
         display: none;
     }
